@@ -3,7 +3,7 @@ import Grid from '@/components/layout/grid'
 
 export default function GridLayout() {
    return (
-      <Grid>
+      <Grid cols={1} sm={3} md={4} lg={6} xl={9} xl2={12}>
          <Caixa>#1</Caixa>
          <Caixa>#2</Caixa>
          <Caixa>#3</Caixa>
@@ -13,6 +13,9 @@ export default function GridLayout() {
          <Caixa>#7</Caixa>
          <Caixa>#8</Caixa>
          <Caixa>#9</Caixa>
+         <Caixa>#10</Caixa>
+         <Caixa>#11</Caixa>
+         <Caixa>#12</Caixa>
       </Grid>
    )
 }
