@@ -5,14 +5,16 @@
   --foreground: #171717;
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+@source inline("{sm:,md:,lg:,xl:,}grid-cols-{1..12}");
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
-
-@source inline("{sm:,md:,lg:,xl:,}grid-cols-{1..12}");
 
 @media (prefers-color-scheme: dark) {
   :root {

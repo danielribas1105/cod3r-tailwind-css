@@ -19,7 +19,6 @@ import {
 } from '@tabler/icons-react'
 import MenuGrupo from './menu-grupo'
 import MenuItem from './menu-item'
-import UsuarioInfo from './usuario-info'
 
 interface MenuProps {
    className?: string
